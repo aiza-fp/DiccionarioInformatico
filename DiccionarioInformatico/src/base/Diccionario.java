@@ -16,17 +16,22 @@ public class Diccionario {
 		palabra = teclado.next();
 		
 		if(palabra != null && palabra.equalsIgnoreCase("bit")) {
-			System.out.println("MÌnima unidad de informaciÛn que representa un 0 Û un 1.");
+			System.out.println("M√≠nima unidad de informaci√≥n que representa un 0 √≥ un 1.");
+		}else if(palabra != null && palabra.equalsIgnoreCase("informatica")){
+			System.out.println("Conjunto de conocimientos t√©cnicos que se ocupan del tratamiento autom√°tico de la informaci√≥n por medio de computadoras");
 		}
-		else if(palabra != null && palabra.equalsIgnoreCase("ordenador")) {
-				System.out.println("es una m·quina que almacena y automatiza la informaciÛn a travÈs de programas inform·ticos diseÒados especÌficamente para esta tarea.");
+    else if(palabra != null && palabra.equalsIgnoreCase("ordenador")) {
+				System.out.println("es una m√°quina que almacena y automatiza la informaci√≥n a trav√©s de programas inform√°ticos dise√±ados espec√≠ficamente para esta tarea.");
 		}
 		else if(palabra != null && palabra.equalsIgnoreCase("algoritmo")) {
-					System.out.println("Un algoritmo inform·tico es un conjunto de instrucciones definidas, ordenadas y acotadas para resolver un problema o realizar una tarea..");
+					System.out.println("Un algoritmo inform√°tico es un conjunto de instrucciones definidas, ordenadas y acotadas para resolver un problema o realizar una tarea..");
 		}
 		else {
+
 			System.out.println("Palabra no encontrada");
 		}
+		
+		
 
 	}
 
