@@ -3,33 +3,51 @@ package base;
 import java.util.Scanner;
 
 public class Diccionario {
-	
+
 	private static Scanner teclado = new Scanner(System.in);
-	
+
 	public Diccionario() {
 		// TODO Auto-generated constructor stub
 	}
 
 	public static void main(String[] args) {
 		String palabra = new String();
-		do {
-		System.out.print ("Introduce palabra: ");
+
+		System.out.print("Introduce palabra: ");
 		palabra = teclado.next();
-		
-		if(palabra != null && palabra.equalsIgnoreCase("palabra")) {
+
+		if (palabra != null && palabra.equalsIgnoreCase("bit")) {
+			System.out.println("M�nima unidad de informaci�n que representa un 0 � un 1.");
+		} else if (palabra != null && palabra.equalsIgnoreCase("manzana")) {
+			System.out.println("Fruta de color verde que sale del manzano.");
+		}	else if(palabra != null && palabra.equalsIgnoreCase("moneda")) {
+			System.out.println("Pieza de metal, generalmente redonda y con un relieve en cada cara, a la que se le asigna un valor econ�mico determinado y se emplea como medio legal de pago.");
+		} else if (palabra != null && palabra.equalsIgnoreCase("Videojuego")) {
+			System.out.println("Un videojuego es un juego electr�nico en el que una o m�s personas interact�an por medio de un controlador, con un dispositivo que muestra im�genes de v�deo.");
+		}else  if(palabra != null && palabra.equalsIgnoreCase("CPU")){
+			System.out.println("Unidad central de procesamiento: Lleva a cabo la union completa del las caracteristicas del equipo.");
+    }else if(palabra !=null && palabra.equals("lan")) {
+			  System.out.println("Una LAN, abreviatura para Local"
+					+ " Area Network (Red de Area Local), es una red que "
+					+ "cubre un �rea geogr�fica peque�a, como hogares, oficinas y grupos de edificios.");
+		}else if(palabra != null && palabra.equalsIgnoreCase("informatica")){
+			  System.out.println("Conjunto de conocimientos técnicos que se ocupan del tratamiento automático de la información por medio de computadoras");
+		}
+    else if(palabra != null && palabra.equalsIgnoreCase("ordenador")) {
+				System.out.println("es una máquina que almacena y automatiza la información a través de programas informáticos diseñados específicamente para esta tarea.");
+		}
+		else if(palabra != null && palabra.equalsIgnoreCase("algoritmo")) {
+				System.out.println("Un algoritmo informático es un conjunto de instrucciones definidas, ordenadas y acotadas para resolver un problema o realizar una tarea..");
+		}else if(palabra != null && palabra.equalsIgnoreCase("palabra")) {
 			System.out.println("Significado:");
-			System.out.println("Unidad l�xica constituida por un sonido o conjunto de sonidos articulados que tienen un significado fijo y una categor�a gramatical.");
+			System.out.println("Unidad l�xica constituida por un sonido o conjunto de sonidos articulados que tienen un significado fijo y una categor�a gramatical.");
 		}
 		else {
-			
-			System.out.println("Palabra no encontrada, introduce otra palabra");}
-		}
+			System.out.println("Palabra no encontrada");
 		
-		while(!(palabra != null && palabra.equalsIgnoreCase("palabra")));{
-
 		}
-		}
-		
-
-
+  }
 }
+
+// request de Josu
+// hniowvhiov
