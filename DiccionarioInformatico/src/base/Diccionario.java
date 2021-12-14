@@ -16,11 +16,15 @@ public class Diccionario {
 		palabra = teclado.next();
 		
 		if(palabra != null && palabra.equalsIgnoreCase("bit")) {
-			System.out.println("M�nima unidad de informaci�n que representa un 0 � un 1.");
+			System.out.println("Mínima unidad de información que representa un 0 ó un 1.");
 		}else {
-			System.out.println("Palabra no encontrada");
-		}
-
+				System.out.println("Palabra no encontrada");
+			}
+			
+		 if (palabra != null && palabra.equalsIgnoreCase("raton")) {
+			System.out.println("El ratón o mouse (en inglés pronunciado /maʊs/) es un dispositivo apuntador utilizado para facilitar el manejo de un entorno gráfico en una computadora");
+	}else {
+		System.out.println("Palabra no encontrada");
 	}
-
+}
 }
