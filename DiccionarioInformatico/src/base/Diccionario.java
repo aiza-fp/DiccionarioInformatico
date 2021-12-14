@@ -12,16 +12,34 @@ public class Diccionario {
 
 	public static void main(String[] args) {
 		String palabra = new String();
-		System.out.print ("Introduce palabra: ");
+		System.out.print ("Introduce palabra: "); 
 		palabra = teclado.next();
 		
 		if(palabra != null && palabra.equalsIgnoreCase("bit")) {
-			System.out.println("Mínima unidad de información que representa un 0 ó un 1.");
+			System.out.println("Mï¿½nima unidad de informaciï¿½n que representa un 0 ï¿½ un 1.");
 		} else if (palabra != null && palabra.equalsIgnoreCase("Videojuego")) {
-			System.out.println("Un videojuego es un juego electrónico en el que una o más personas interactúan por medio de un controlador, con un dispositivo que muestra imágenes de vídeo.");
-		} else {
-			System.out.println("Palabra no encontrada");
+			System.out.println("Un videojuego es un juego electrï¿½nico en el que una o mï¿½s personas interactï¿½an por medio de un controlador, con un dispositivo que muestra imï¿½genes de vï¿½deo.");
+		}else  if(palabra != null && palabra.equalsIgnoreCase("CPU")){
+			System.out.println("Unidad central de procesamiento: Lleva a cabo la union completa del las caracteristicas del equipo.");
+    }else if(palabra !=null && palabra.equals("lan")) {
+			  System.out.println("Una LAN, abreviatura para Local"
+					+ " Area Network (Red de Area Local), es una red que "
+					+ "cubre un ï¿½rea geogrï¿½fica pequeï¿½a, como hogares, oficinas y grupos de edificios.");
+		}else if(palabra != null && palabra.equalsIgnoreCase("informatica")){
+			  System.out.println("Conjunto de conocimientos tÃ©cnicos que se ocupan del tratamiento automÃ¡tico de la informaciÃ³n por medio de computadoras");
 		}
+    else if(palabra != null && palabra.equalsIgnoreCase("ordenador")) {
+				System.out.println("es una mÃ¡quina que almacena y automatiza la informaciÃ³n a travÃ©s de programas informÃ¡ticos diseÃ±ados especÃ­ficamente para esta tarea.");
+		}
+		else if(palabra != null && palabra.equalsIgnoreCase("algoritmo")) {
+				System.out.println("Un algoritmo informÃ¡tico es un conjunto de instrucciones definidas, ordenadas y acotadas para resolver un problema o realizar una tarea..");
+		}
+		else {
+			System.out.println("Palabra no encontrada");
+		
+		}
+		
+		
 
 	}
 
