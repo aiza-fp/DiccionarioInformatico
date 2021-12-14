@@ -17,8 +17,13 @@ public class Diccionario {
 		
 		if(palabra != null && palabra.equalsIgnoreCase("bit")) {
 			System.out.println("Mínima unidad de información que representa un 0 ó un 1.");
+			
+		}else  if(palabra != null && palabra.equalsIgnoreCase("CPU")){
+			System.out.println("Unidad central de procesamiento: Lleva a cabo la union completa del las caracteristicas del equipo.");
+			
 		}else {
 			System.out.println("Palabra no encontrada");
+		
 		}
 
 	}
