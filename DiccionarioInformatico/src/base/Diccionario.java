@@ -17,7 +17,14 @@ public class Diccionario {
 		
 		if(palabra != null && palabra.equalsIgnoreCase("bit")) {
 			System.out.println("Mínima unidad de información que representa un 0 ó un 1.");
-		}else {
+		}
+		else if(palabra != null && palabra.equalsIgnoreCase("ordenador")) {
+				System.out.println("es una máquina que almacena y automatiza la información a través de programas informáticos diseñados específicamente para esta tarea.");
+		}
+		else if(palabra != null && palabra.equalsIgnoreCase("algoritmo")) {
+					System.out.println("Un algoritmo informático es un conjunto de instrucciones definidas, ordenadas y acotadas para resolver un problema o realizar una tarea..");
+		}
+		else {
 			System.out.println("Palabra no encontrada");
 		}
 
