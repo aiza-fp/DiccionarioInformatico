@@ -12,6 +12,7 @@ public class Diccionario {
 
 	public static void main(String[] args) {
 		String palabra = new String();
+
 		System.out.print("Introduce palabra: ");
 		palabra = teclado.next();
 		
@@ -20,6 +21,8 @@ public class Diccionario {
 		}
 		else if(palabra != null && palabra.equalsIgnoreCase("backbone")) {
 			System.out.println("Una troncal (en ingl�s backbone), red troncal o troncal de internet, es una de las principales conexiones de internet.");
+    }else if (palabra != null && palabra.equalsIgnoreCase("raton")) {
+			System.out.println("El ratón o mouse (en inglés pronunciado /maʊs/) es un dispositivo apuntador utilizado para facilitar el manejo de un entorno gráfico en una computadora");
 		} else if (palabra != null && palabra.equalsIgnoreCase("manzana")) {
 			System.out.println("Fruta de color verde que sale del manzano.");
 		}	else if(palabra != null && palabra.equalsIgnoreCase("moneda")) {
@@ -40,14 +43,17 @@ public class Diccionario {
 		}
 		else if(palabra != null && palabra.equalsIgnoreCase("algoritmo")) {
 				System.out.println("Un algoritmo informático es un conjunto de instrucciones definidas, ordenadas y acotadas para resolver un problema o realizar una tarea..");
+		}else if(palabra != null && palabra.equalsIgnoreCase("palabra")) {
+			System.out.println("Significado:");
+			System.out.println("Unidad l�xica constituida por un sonido o conjunto de sonidos articulados que tienen un significado fijo y una categor�a gramatical.");
 		}
 		else {
 			System.out.println("Palabra no encontrada");
 		
 		}
-		
-		
 
-	}
-
+  }
 }
+
+// request de Josu
+// hniowvhiov
