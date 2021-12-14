@@ -17,7 +17,11 @@ public class Diccionario {
 		
 		if(palabra != null && palabra.equalsIgnoreCase("bit")) {
 			System.out.println("Mínima unidad de información que representa un 0 ó un 1.");
-		}else {
+		}
+		else if(palabra != null && palabra.equalsIgnoreCase("backbone")) {
+			System.out.println("Una troncal (en inglés backbone), red troncal o troncal de internet, es una de las principales conexiones de internet.");
+		}
+		else {
 			System.out.println("Palabra no encontrada");
 		}
 
