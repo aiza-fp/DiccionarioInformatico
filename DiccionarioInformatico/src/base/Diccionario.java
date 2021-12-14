@@ -17,9 +17,13 @@ public class Diccionario {
 		
 		if(palabra != null && palabra.equalsIgnoreCase("bit")) {
 			System.out.println("Mínima unidad de información que representa un 0 ó un 1.");
-		}else {
+		}else if(palabra != null && palabra.equalsIgnoreCase("informatica")){
+			System.out.println("Conjunto de conocimientos técnicos que se ocupan del tratamiento automático de la información por medio de computadoras");
+		}else{
 			System.out.println("Palabra no encontrada");
 		}
+		
+		
 
 	}
 
