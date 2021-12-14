@@ -17,7 +17,13 @@ public class Diccionario {
 		
 		if(palabra != null && palabra.equalsIgnoreCase("bit")) {
 			System.out.println("Mínima unidad de información que representa un 0 ó un 1.");
-		}else {
+		}
+		else if(palabra !=null && palabra.equals("lan")) {
+			System.out.println("Una LAN, abreviatura para Local"
+					+ " Area Network (Red de Area Local), es una red que "
+					+ "cubre un área geográfica pequeña, como hogares, oficinas y grupos de edificios.");
+		}
+		else {
 			System.out.println("Palabra no encontrada");
 		}
 
