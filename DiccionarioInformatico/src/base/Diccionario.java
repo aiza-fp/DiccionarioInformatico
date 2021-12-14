@@ -17,6 +17,9 @@ public class Diccionario {
 		
 		if(palabra != null && palabra.equalsIgnoreCase("bit")) {
 			System.out.println("M�nima unidad de informaci�n que representa un 0 � un 1.");
+		}
+		else if(palabra != null && palabra.equalsIgnoreCase("moneda")) {
+			System.out.println("Pieza de metal, generalmente redonda y con un relieve en cada cara, a la que se le asigna un valor econ�mico determinado y se emplea como medio legal de pago.");
 		} else if (palabra != null && palabra.equalsIgnoreCase("Videojuego")) {
 			System.out.println("Un videojuego es un juego electr�nico en el que una o m�s personas interact�an por medio de un controlador, con un dispositivo que muestra im�genes de v�deo.");
 		}else  if(palabra != null && palabra.equalsIgnoreCase("CPU")){
