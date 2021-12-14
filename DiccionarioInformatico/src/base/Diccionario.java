@@ -24,3 +24,6 @@ public class Diccionario {
 	}
 
 }
+
+// request de Josu
+// hniowvhiov
