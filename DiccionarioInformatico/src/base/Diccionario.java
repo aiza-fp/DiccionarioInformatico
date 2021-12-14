@@ -12,10 +12,18 @@ public class Diccionario {
 
 	public static void main(String[] args) {
 		String palabra = new String();
-		System.out.print ("Introduce palabra: ");
+		System.out.print ("Introduce palabra: "); 
 		palabra = teclado.next();
 		
 		if(palabra != null && palabra.equalsIgnoreCase("bit")) {
+			System.out.println("M�nima unidad de informaci�n que representa un 0 � un 1.");
+		}
+		else if(palabra !=null && palabra.equals("lan")) {
+			System.out.println("Una LAN, abreviatura para Local"
+					+ " Area Network (Red de Area Local), es una red que "
+					+ "cubre un �rea geogr�fica peque�a, como hogares, oficinas y grupos de edificios.");
+		}
+		else {
 			System.out.println("Mínima unidad de información que representa un 0 ó un 1.");
 		}else if(palabra != null && palabra.equalsIgnoreCase("informatica")){
 			System.out.println("Conjunto de conocimientos técnicos que se ocupan del tratamiento automático de la información por medio de computadoras");
@@ -27,7 +35,6 @@ public class Diccionario {
 					System.out.println("Un algoritmo informático es un conjunto de instrucciones definidas, ordenadas y acotadas para resolver un problema o realizar una tarea..");
 		}
 		else {
-
 			System.out.println("Palabra no encontrada");
 		}
 		
