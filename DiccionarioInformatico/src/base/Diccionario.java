@@ -16,10 +16,18 @@ public class Diccionario {
 		palabra = teclado.next();
 		
 		if(palabra != null && palabra.equalsIgnoreCase("bit")) {
-			System.out.println("M�nima unidad de informaci�n que representa un 0 � un 1.");
+			System.out.println("Mínima unidad de información que representa un 0 ó un 1.");
 		}else if(palabra != null && palabra.equalsIgnoreCase("informatica")){
-			System.out.println("Conjunto de conocimientos t�cnicos que se ocupan del tratamiento autom�tico de la informaci�n por medio de computadoras");
-		}else{
+			System.out.println("Conjunto de conocimientos técnicos que se ocupan del tratamiento automático de la información por medio de computadoras");
+		}
+    else if(palabra != null && palabra.equalsIgnoreCase("ordenador")) {
+				System.out.println("es una máquina que almacena y automatiza la información a través de programas informáticos diseñados específicamente para esta tarea.");
+		}
+		else if(palabra != null && palabra.equalsIgnoreCase("algoritmo")) {
+					System.out.println("Un algoritmo informático es un conjunto de instrucciones definidas, ordenadas y acotadas para resolver un problema o realizar una tarea..");
+		}
+		else {
+
 			System.out.println("Palabra no encontrada");
 		}
 		
