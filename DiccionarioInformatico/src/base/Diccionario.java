@@ -12,7 +12,7 @@ public class Diccionario {
 
 	public static void main(String[] args) {
 		String palabra = new String();
-		System.out.print ("Introduce palabra: ");
+		System.out.print ("Introduce palabra: "); 
 		palabra = teclado.next();
 		
 		if(palabra != null && palabra.equalsIgnoreCase("bit")) {
