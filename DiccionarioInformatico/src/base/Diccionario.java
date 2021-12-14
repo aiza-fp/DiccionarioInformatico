@@ -17,10 +17,11 @@ public class Diccionario {
 		palabra = teclado.next();
 		
 		if(palabra != null && palabra.equalsIgnoreCase("palabra")) {
+			System.out.println("Significado:");
 			System.out.println("Unidad léxica constituida por un sonido o conjunto de sonidos articulados que tienen un significado fijo y una categoría gramatical.");
 		}
 		else {
-			System.out.println("Significado:");
+			
 			System.out.println("Palabra no encontrada, introduce otra palabra");}
 		}
 		
