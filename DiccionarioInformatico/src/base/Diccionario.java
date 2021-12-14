@@ -3,21 +3,28 @@ package base;
 import java.util.Scanner;
 
 public class Diccionario {
-	
+
 	private static Scanner teclado = new Scanner(System.in);
-	
+
 	public Diccionario() {
 		// TODO Auto-generated constructor stub
 	}
 
 	public static void main(String[] args) {
 		String palabra = new String();
-		System.out.print ("Introduce palabra: ");
+		System.out.print("Introduce palabra: ");
 		palabra = teclado.next();
+
+		if (palabra != null && palabra.equalsIgnoreCase("bit")) {
+			System.out.println("Mï¿½nima unidad de informaciï¿½n que representa un 0 ï¿½ un 1.");
+		} 
 		
-		if(palabra != null && palabra.equalsIgnoreCase("bit")) {
-			System.out.println("Mínima unidad de información que representa un 0 ó un 1.");
-		}else {
+		else if (palabra != null && palabra.equalsIgnoreCase("radiacion")) {
+			
+			System.out.println("emision o trasmicion de energia daÃ±ina para los animales y personas");
+		}
+
+		else {
 			System.out.println("Palabra no encontrada");
 		}
 
