@@ -13,9 +13,22 @@ public class Diccionario {
 	public static void main(String[] args) {
 		String palabra = new String();
 
+
+
 		System.out.print("Introduce palabra: ");
 		palabra = teclado.next();
+
+		if (palabra != null && palabra.equalsIgnoreCase("bit")) {
+			System.out.println("M�nima unidad de informaci�n que representa un 0 � un 1.");
+		} 
 		
+
+		else if (palabra != null && palabra.equalsIgnoreCase("radiacion")) {
+			
+			System.out.println("emision o trasmicion de energia dañina para los animales y personas");
+		}
+
+
 		if(palabra != null && palabra.equalsIgnoreCase("bit")) {
 
 			System.out.println("M�nima unidad de informaci�n que representa un 0 � un 1.");
@@ -61,6 +74,7 @@ public class Diccionario {
 		}else if (palabra != null && palabra.equalsIgnoreCase("GPU")) {
 			System.out.println("Una unidad de procesamiento gráfico es un coprocesador dedicado al procesamiento de gráficos u operaciones, para aligerar la carga de trabajo del procesador/CPU central en aplicaciones como los videojuegos o aplicaciones 3D interactivas");
 		}
+
 		else {
 			System.out.println("Palabra no encontrada");
 	
