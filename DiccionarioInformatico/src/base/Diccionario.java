@@ -20,6 +20,12 @@ public class Diccionario {
 		}else {
 			System.out.println("Palabra no encontrada");
 		}
+		
+		if (palabra != null && palabra.equalsIgnoreCase("gigabyte")) { //Iker Musatadi
+			System.out.println("Es una unidad de almacenamiento de información cuyo símbolo es el GB");
+		}else {
+			System.out.println("Palabra no encontrada");
+		}
 
 	}
 
