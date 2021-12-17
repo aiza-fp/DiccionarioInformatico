@@ -17,6 +17,12 @@ public class Diccionario {
 		palabra = teclado.next();
 		
 		if(palabra != null && palabra.equalsIgnoreCase("bit")) {
+
+			System.out.println("M�nima unidad de informaci�n que representa un 0 � un 1.");
+		}else if (palabra != null && palabra.equalsIgnoreCase("gigabyte")) { //Iker Musatadi
+			System.out.println("Es una unidad de almacenamiento de informaci�n cuyo s�mbolo es el GB");
+		}else {
+
 			System.out.println("M�nima unidad de informaci�n que representa un 0 � un 1.");
 		}
 		else if(palabra != null && palabra.equalsIgnoreCase("backbone")) {
@@ -49,10 +55,18 @@ public class Diccionario {
 		}else if(palabra != null && palabra.equalsIgnoreCase("Bug")) {
 			System.out.println("Significado:");
 			System.out.println(" Un defecto en el software como podría ser un proceso, una definición de datos o un paso de parámetros incorrectos en un programa.");
-		}else {
-			System.out.println("Palabra no encontrada");
-		
+		}else if(palabra != null && palabra.equalsIgnoreCase("bucle")){
+			System.out.println("Significado:");
+			System.out.println("Es una secuencia de instrucciones de código que se ejecuta repetidas veces.");
+		}else if (palabra != null && palabra.equalsIgnoreCase("GPU")) {
+			System.out.println("Una unidad de procesamiento gráfico es un coprocesador dedicado al procesamiento de gráficos u operaciones, para aligerar la carga de trabajo del procesador/CPU central en aplicaciones como los videojuegos o aplicaciones 3D interactivas");
 		}
+		else {
+			System.out.println("Palabra no encontrada");
+	
+		}
+		
+		
 
   }
 }
