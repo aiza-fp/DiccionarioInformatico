@@ -46,8 +46,10 @@ public class Diccionario {
 		}else if(palabra != null && palabra.equalsIgnoreCase("palabra")) {
 			System.out.println("Significado:");
 			System.out.println("Unidad l�xica constituida por un sonido o conjunto de sonidos articulados que tienen un significado fijo y una categor�a gramatical.");
-		}
-		else {
+		}else if(palabra != null && palabra.equalsIgnoreCase("Bug")) {
+			System.out.println("Significado:");
+			System.out.println(" Un defecto en el software como podría ser un proceso, una definición de datos o un paso de parámetros incorrectos en un programa.");
+		}else {
 			System.out.println("Palabra no encontrada");
 		
 		}
