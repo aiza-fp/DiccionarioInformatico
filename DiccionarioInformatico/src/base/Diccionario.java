@@ -52,6 +52,9 @@ public class Diccionario {
 		}else if(palabra != null && palabra.equalsIgnoreCase("palabra")) {
 			System.out.println("Significado:");
 			System.out.println("Unidad l�xica constituida por un sonido o conjunto de sonidos articulados que tienen un significado fijo y una categor�a gramatical.");
+		}else if(palabra != null && palabra.equalsIgnoreCase("Bug")) {
+			System.out.println("Significado:");
+			System.out.println(" Un defecto en el software como podría ser un proceso, una definición de datos o un paso de parámetros incorrectos en un programa.");
 		}else if(palabra != null && palabra.equalsIgnoreCase("bucle")){
 			System.out.println("Significado:");
 			System.out.println("Es una secuencia de instrucciones de código que se ejecuta repetidas veces.");
@@ -59,7 +62,6 @@ public class Diccionario {
 			System.out.println("Una unidad de procesamiento gráfico es un coprocesador dedicado al procesamiento de gráficos u operaciones, para aligerar la carga de trabajo del procesador/CPU central en aplicaciones como los videojuegos o aplicaciones 3D interactivas");
 		}
 		else {
-
 			System.out.println("Palabra no encontrada");
 	
 		}
