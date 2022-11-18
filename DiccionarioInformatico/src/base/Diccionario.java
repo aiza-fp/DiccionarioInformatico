@@ -74,11 +74,15 @@ public class Diccionario {
 		}else if (palabra != null && palabra.equalsIgnoreCase("GPU")) {
 			System.out.println("Una unidad de procesamiento gráfico es un coprocesador dedicado al procesamiento de gráficos u operaciones, para aligerar la carga de trabajo del procesador/CPU central en aplicaciones como los videojuegos o aplicaciones 3D interactivas");
 		}
-
+		else if(palabra != null && palabra.equalsIgnoreCase("DNS")){
+			System.out.println("DNS:");
+			System.out.println("DNS: Servidor de nombres de dominio (Domain Name Server).");
+		{
 		else {
 			System.out.println("Palabra no encontrada");
 	
 		}
+		
 		
 		
 
