@@ -76,7 +76,7 @@ public class Diccionario {
 		} else if (palabra != null && palabra.equalsIgnoreCase("Criptomoneda")) {
 			System.out.println("Una criptomoneda es un medio digital de intercambio que utiliza criptografía fuerte para asegurar las transacciones, controlar la creación de unidades adicionales y verificar la transferencia de activos usando tecnologías de registro distribuido.");
 
-		else {
+		} else {
 			System.out.println("Palabra no encontrada");
 	
 		}
