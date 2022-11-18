@@ -73,6 +73,8 @@ public class Diccionario {
 			System.out.println("Es una secuencia de instrucciones de código que se ejecuta repetidas veces.");
 		}else if (palabra != null && palabra.equalsIgnoreCase("GPU")) {
 			System.out.println("Una unidad de procesamiento gráfico es un coprocesador dedicado al procesamiento de gráficos u operaciones, para aligerar la carga de trabajo del procesador/CPU central en aplicaciones como los videojuegos o aplicaciones 3D interactivas");
+		}else if (palabra != null && palabra.equalsIgnoreCase("WWW")) {/*Iker Elorrieta*/
+			System.out.println("World Wide Web, o lo que es lo mismo, una «red mundial");
 		}
 
 		else {
