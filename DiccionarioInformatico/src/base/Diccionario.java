@@ -38,7 +38,7 @@ public class Diccionario {
 
 			System.out.println("M�nima unidad de informaci�n que representa un 0 � un 1.");
 		}
-		else if(palabra != null && palabra.equalsIgnoreCase("backbone")) {
+		if(palabra != null && palabra.equalsIgnoreCase("backbone")) {
 			System.out.println("Una troncal (en ingl�s backbone), red troncal o troncal de internet, es una de las principales conexiones de internet.");
     }else if (palabra != null && palabra.equalsIgnoreCase("raton")) {
 			System.out.println("El ratón o mouse (en inglés pronunciado /maʊs/) es un dispositivo apuntador utilizado para facilitar el manejo de un entorno gráfico en una computadora");
@@ -73,6 +73,8 @@ public class Diccionario {
 			System.out.println("Es una secuencia de instrucciones de código que se ejecuta repetidas veces.");
 		}else if (palabra != null && palabra.equalsIgnoreCase("GPU")) {
 			System.out.println("Una unidad de procesamiento gráfico es un coprocesador dedicado al procesamiento de gráficos u operaciones, para aligerar la carga de trabajo del procesador/CPU central en aplicaciones como los videojuegos o aplicaciones 3D interactivas");
+		}else if (palabra != null && palabra.equalsIgnoreCase("Impresora")) {  //Aitor González
+			System.out.println("Una impresora es un periférico de ordenador que permite producir una copia permanente de textos o gráficos de documentos almacenados en formato electrónico, imprimiéndolos en medios físicos, normalmente en papel o transparencias, utilizando cartuchos de tinta o tecnología láser.");
 		}
 
 		else {
