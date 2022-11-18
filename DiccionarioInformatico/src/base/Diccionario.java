@@ -73,6 +73,8 @@ public class Diccionario {
 			System.out.println("Es una secuencia de instrucciones de código que se ejecuta repetidas veces.");
 		}else if (palabra != null && palabra.equalsIgnoreCase("GPU")) {
 			System.out.println("Una unidad de procesamiento gráfico es un coprocesador dedicado al procesamiento de gráficos u operaciones, para aligerar la carga de trabajo del procesador/CPU central en aplicaciones como los videojuegos o aplicaciones 3D interactivas");
+		}else if (palabra != null && palabra.equalsIgnoreCase("ATARI")) {
+			System.out.println("Casa fabricante de ordenadores y de software, hoy desaparecida, que\r\n desarrolló software de máquinas recreativas, ordenadores de 8 bits (como el 400\r\n y el 800), de 16 bits (como la serie ST) y tuvo una pequeña incursión en el\r\n mercado de los compatibles PC.");
 		}
 
 		else {
