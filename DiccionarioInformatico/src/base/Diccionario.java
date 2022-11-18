@@ -73,6 +73,8 @@ public class Diccionario {
 			System.out.println("Es una secuencia de instrucciones de código que se ejecuta repetidas veces.");
 		}else if (palabra != null && palabra.equalsIgnoreCase("GPU")) {
 			System.out.println("Una unidad de procesamiento gráfico es un coprocesador dedicado al procesamiento de gráficos u operaciones, para aligerar la carga de trabajo del procesador/CPU central en aplicaciones como los videojuegos o aplicaciones 3D interactivas");
+		}else if (palabra != null && palabra.equalsIgnoreCase("RAM")) {
+			System.out.println("La memoria de acceso aleatorio (Random Access Memory, RAM) es una memoria de almacenamiento a corto plazo. El sistema operativo de ordenadores u otros dispositivos utiliza la memoria RAM para almacenar de forma temporal todos los programas y sus procesos de ejecución");
 		}
 
 		else {
