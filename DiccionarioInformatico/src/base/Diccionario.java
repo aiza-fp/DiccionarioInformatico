@@ -38,7 +38,7 @@ public class Diccionario {
 
 			System.out.println("M�nima unidad de informaci�n que representa un 0 � un 1.");
 		}
-		else if(palabra != null && palabra.equalsIgnoreCase("backbone")) {
+	 if(palabra != null && palabra.equalsIgnoreCase("backbone")) {
 			System.out.println("Una troncal (en ingl�s backbone), red troncal o troncal de internet, es una de las principales conexiones de internet.");
     }else if (palabra != null && palabra.equalsIgnoreCase("raton")) {
 			System.out.println("El ratón o mouse (en inglés pronunciado /maʊs/) es un dispositivo apuntador utilizado para facilitar el manejo de un entorno gráfico en una computadora");
