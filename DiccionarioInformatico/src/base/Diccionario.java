@@ -75,8 +75,9 @@ public class Diccionario {
 			System.out.println("Una unidad de procesamiento gráfico es un coprocesador dedicado al procesamiento de gráficos u operaciones, para aligerar la carga de trabajo del procesador/CPU central en aplicaciones como los videojuegos o aplicaciones 3D interactivas");
 		}else if (palabra != null && palabra.equalsIgnoreCase("Impresora")) {  //Aitor González
 			System.out.println("Una impresora es un periférico de ordenador que permite producir una copia permanente de textos o gráficos de documentos almacenados en formato electrónico, imprimiéndolos en medios físicos, normalmente en papel o transparencias, utilizando cartuchos de tinta o tecnología láser.");
+		}else if (palabra != null && palabra.equalsIgnoreCase("SCSI")) {
+			System.out.println("Implementación de la norma SCSI (Small Computer System Interface, Interfaz de Sistema para Computadoras Pequeñas) que usa un bus de 8 bits, pero duplica el índice del reloj para lograr niveles de transferencia de hasta 10 Mbps.﻿" );
 		}
-
 		else {
 			System.out.println("Palabra no encontrada");
 	
