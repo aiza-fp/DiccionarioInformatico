@@ -34,11 +34,7 @@ public class Diccionario {
 			System.out.println("M�nima unidad de informaci�n que representa un 0 � un 1.");
 		}else if (palabra != null && palabra.equalsIgnoreCase("gigabyte")) { //Iker Musatadi
 			System.out.println("Es una unidad de almacenamiento de informaci�n cuyo s�mbolo es el GB");
-		}else {
-
-			System.out.println("M�nima unidad de informaci�n que representa un 0 � un 1.");
-		}
-		else if(palabra != null && palabra.equalsIgnoreCase("backbone")) {
+		}else if(palabra != null && palabra.equalsIgnoreCase("backbone")) {
 			System.out.println("Una troncal (en ingl�s backbone), red troncal o troncal de internet, es una de las principales conexiones de internet.");
     }else if (palabra != null && palabra.equalsIgnoreCase("raton")) {
 			System.out.println("El ratón o mouse (en inglés pronunciado /maʊs/) es un dispositivo apuntador utilizado para facilitar el manejo de un entorno gráfico en una computadora");
@@ -73,6 +69,8 @@ public class Diccionario {
 			System.out.println("Es una secuencia de instrucciones de código que se ejecuta repetidas veces.");
 		}else if (palabra != null && palabra.equalsIgnoreCase("GPU")) {
 			System.out.println("Una unidad de procesamiento gráfico es un coprocesador dedicado al procesamiento de gráficos u operaciones, para aligerar la carga de trabajo del procesador/CPU central en aplicaciones como los videojuegos o aplicaciones 3D interactivas");
+		}else if (palabra != null && palabra.equalsIgnoreCase("WLAN")) {
+			System.out.println("Una red de área local inalámbrica, también conocida como WLAN (del inglés wireless local area network), es una red inalámbrica de comunicación para distancias cortas y funciona mediante ondas de radio o infrarrojas. Con los rápidos avances de Internet, ya no era necesario utilizar cableado como las redes tradicionales.");
 		}
 
 		else {
