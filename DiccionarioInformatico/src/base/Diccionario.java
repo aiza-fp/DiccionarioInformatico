@@ -75,7 +75,9 @@ public class Diccionario {
 			System.out.println("Una unidad de procesamiento gráfico es un coprocesador dedicado al procesamiento de gráficos u operaciones, para aligerar la carga de trabajo del procesador/CPU central en aplicaciones como los videojuegos o aplicaciones 3D interactivas");
 		}else if (palabra != null && palabra.equalsIgnoreCase("Impresora")) {  //Aitor González
 			System.out.println("Una impresora es un periférico de ordenador que permite producir una copia permanente de textos o gráficos de documentos almacenados en formato electrónico, imprimiéndolos en medios físicos, normalmente en papel o transparencias, utilizando cartuchos de tinta o tecnología láser.");
-		}
+		}else if (palabra != null && palabra.equalsIgnoreCase("SSH (Secure SHell)")) {  //Ugaitz Bilbao
+            System.out.println("SSH (o Secure SHell, en español: intérprete de órdenes seguro) es el nombre de un protocolo y del programa que lo implementa cuya principal función es el acceso remoto a un servidor por medio de un canal seguro en el que toda la información está cifrada. ");
+        }
 
 		else {
 			System.out.println("Palabra no encontrada");
